@@ -1,0 +1,6 @@
+body{
+  background-image: url("/static/movie_app/bw.jpg");
+  background-size: 65%;
+  /* background-size:cover; */
+  background-repeat: no-repeat;
+  background-position:top;}

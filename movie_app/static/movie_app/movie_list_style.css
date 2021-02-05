@@ -1,0 +1,10 @@
+body{
+  background-image: url(violet.jpg);
+  /* background-size: 90%; */
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:top;}
+
+  .table-hover{
+    background-color: grey;
+  }

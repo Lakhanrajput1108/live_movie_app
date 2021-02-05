@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" type="text/css" href="/static/movie_app/add_movie_style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <title>addMovie</title>
+  </head>
+  <body>
+    <center>
+        <table>
+            <form method="post">
+              <h1><b><i>Add Your Favourite Movie</i></b></h1><br>
+              {{form}}
+              {% csrf_token %}
+          </table>
+          <br>
+         <a href="movie/"> <button type="submit" class="btn btn-success">submit</button></a>
+          
+<a href="http://127.0.0.1:8000/"><button class="btn btn-success">Go to Home Page</button></a>
+ 
+        </center>
+        </form>
+        </body>
+</html>

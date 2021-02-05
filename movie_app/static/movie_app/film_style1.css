@@ -1,0 +1,31 @@
+body {
+ background-image: url("/static/movie_app/marvel.jpg");
+  background-size:cover;
+  /* background-position: center; */
+   background-repeat: no-repeat;}
+.navbar{
+  background-color: white;
+  text-transform:capitalize;
+  font: color:orange:
+}
+.navbar.nav navbar-nav.ul a {
+    color: white;
+}
+div.jumbotron{
+	background-image: url('uri.jpg');
+	background-size:cover;
+	/* background-repeat: no-repeat; */
+  padding-top: 190px;
+  padding-bottom: 108px;
+  color: blue;
+}
+.jumbotron {
+  padding-right: 63px;
+  padding-left: 108px;
+  padding-bottom: 137px;
+  padding-top: 136px;
+    }
+}
+.li {
+  border-right: 1px solid black;
+}
