@@ -25,7 +25,7 @@ SECRET_KEY = 'r2r_@j@9*7_y&$iy4!mpuzzz^v%+_a&8gj7eptfu7*=j0o%36a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -38,8 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'movie_app',
-    'ftp_deploy',
-    'ftp_deploy.server',
+    # 'ftp_deploy',
+    # 'ftp_deploy.server',
 ]
 
 MIDDLEWARE = [

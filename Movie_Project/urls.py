@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from movie_app import views as m
-import ftplib
+# import ftplib
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -31,6 +31,6 @@ urlpatterns = [
     path('about/',m.about_us),
 
     #deployment URL
-    url(r'^ftpdeploy/', include('ftp_deploy.urls')),
-    url(r'^ftpdeploy/', include('ftp_deploy.server.urls')),
+    # url(r'^ftpdeploy/', include('ftp_deploy.urls')),
+    # url(r'^ftpdeploy/', include('ftp_deploy.server.urls')),
 ]
